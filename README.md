@@ -12,7 +12,7 @@ Unlike conventional methods with static perturbation factors, AAA introduces a d
 * MixStyle - [Domain Generalization with MixStyle](https://openreview.net/forum?id=6xHJ37MVxxp)
 * EFDMix - [Exact Feature Distribution Matching for Arbitrary Style Transfer and Domain Generalization](https://arxiv.org/abs/2203.07740)
 
-* Datasets
+# Datasets
 * Digits
 * PACS
 * OfficeHome
