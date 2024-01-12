@@ -1,0 +1,12 @@
+DATALOADER:
+  TRAIN:
+    BATCH_SIZE: 64
+
+OPTIM:
+  LR: 0.001
+  MAX_EPOCH: 50
+
+TRAINER:
+  DDAIG:
+    G_ARCH: "fcn_3x64_gctx"
+    LMDA: 0.3

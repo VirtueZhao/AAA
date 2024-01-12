@@ -1,0 +1,18 @@
+INPUT:
+  PIXEL_MEAN: [0., 0., 0.]
+  PIXEL_STD: [1., 1., 1.]
+
+DATALOADER:
+  TRAIN:
+    BATCH_SIZE: 16
+
+OPTIM:
+  LR: 0.0005
+  MAX_EPOCH: 25
+  LR_SCHEDULER: "single_step"
+  STEP_SIZE: 20
+
+TRAINER:
+  DDAIG:
+    G_ARCH: "fcn_3x64_gctx"
+    LMDA: 0.3
