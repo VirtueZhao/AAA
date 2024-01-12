@@ -12,12 +12,12 @@ Unlike conventional methods with static perturbation factors, AAA introduces a d
 * MixStyle - [Domain Generalization with MixStyle](https://openreview.net/forum?id=6xHJ37MVxxp)
 * EFDMix - [Exact Feature Distribution Matching for Arbitrary Style Transfer and Domain Generalization](https://arxiv.org/abs/2203.07740)
 
-# Datasets
-# Digits
-# PACS
-# OfficeHome
-# VLCS
-# NICO++
+* Datasets
+* Digits
+* PACS
+* OfficeHome
+* VLCS
+* NICO++
 * CUHK03 - [DeepReID: Deep Filter Pairing Neural Network for Person Re-identification](https://ieeexplore.ieee.org/document/6909421)
 * Market1501 - [Scalable Person Re-identification: A Benchmark](https://ieeexplore.ieee.org/document/7410490)
 * MSMT17 - [Person Transfer GAN to Bridge Domain Gap for Person Re-identification](https://ieeexplore.ieee.org/document/8578114)
