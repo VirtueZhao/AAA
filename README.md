@@ -18,21 +18,20 @@ Unlike conventional methods with static perturbation factors, AAA introduces a d
 * OfficeHome
 * VLCS
 * NICO++
-* CUHK03 - [DeepReID: Deep Filter Pairing Neural Network for Person Re-identification](https://ieeexplore.ieee.org/document/6909421)
-* Market1501 - [Scalable Person Re-identification: A Benchmark](https://ieeexplore.ieee.org/document/7410490)
-* MSMT17 - [Person Transfer GAN to Bridge Domain Gap for Person Re-identification](https://ieeexplore.ieee.org/document/8578114)
 
 # Sample Command
 
 python train.py
 
-                --gpu 0                               # Specify device
-                --seed 42                             # Random Seed
-                --max_epoch 100                       # Training Epoch
-                --lr 0.0001                           # Learning Rate 
-                --batch_size 256                      # Batch Size
-                --dataset_path datasets               # Path of datasets
-                --output_dir output/MSMT17_CUHK03     # Output directory 
-                --trainer AAA                         # Algorithm for training
-                --source_domains MSMT17               # Source dataset
-                --target_domain CUHK03                # Target dataset
+                --gpu 0                                                 # Specify device
+                --seed 42                                               # Random Seed
+                --source_domains cartoon photo sketch                   # Source Domains
+                --target_domain art_painting                            # Target Domain
+                --dataset_path datasets                                 # Path of datasets
+                --output_dir output/PACS                                # Output directory 
+                --max_epoch 100                                         # Training Epoch
+                --batch_size 256                                        # Batch Size
+                --lr 0.0001                                             # Learning Rate 
+                --config_path_trainer configs/trainers/AAA/pacs.yaml    # config file for trainer
+                --config_path_dataset configs/datasets/pacs.yaml        # config file for dataset
+                --trainer AAA                                           # Algorithm for training
